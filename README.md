@@ -17,6 +17,14 @@
 
 - [https://www.hamrodev.com/es/desarrollo-apps/como-funcionan-dependencias-npm](https://www.hamrodev.com/es/desarrollo-apps/como-funcionan-dependencias-npm)
 
+- [What is npm? A Node Package Manager Tutorial for Beginners](https://www.freecodecamp.org/news/what-is-npm-a-node-package-manager-tutorial-for-beginners/)
+
+- [npm Cheat Sheet - Most Common Commands and nvm](https://www.freecodecamp.org/news/npm-cheat-sheet-most-common-commands-and-nvm/)
+
+- [5 npm Tips and Tricks to Help You Boost Your Productivity](https://www.freecodecamp.org/news/5-npm-tips-and-tricks/)
+
+- [These NPM tricks will make you a pro](https://www.freecodecamp.org/news/10-npm-tricks-that-will-make-you-a-pro-a945982afb25/)
+
 - [A guide to NPM version constraints for Rubyists | rossta](https://rossta.net/blog/npm-version-constraints-for-rubyists.html)
 
 - [Resolving EACCES permissions errors when installing packages globally](https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally)

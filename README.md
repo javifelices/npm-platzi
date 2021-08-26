@@ -30,7 +30,16 @@
 - [Resolving EACCES permissions errors when installing packages globally](https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally)
 
 - [Different types of dependencies in a Node.js application explained](https://javascript.plainenglish.io/what-the-dependency-types-of-dependencies-in-a-node-js-application-explained-904a5424fbd3)
+
 - [A Comprehensive Beginner’s Guide To NPM](https://www.tabnine.com/blog/a-comprehensive-beginners-guide-to-npm/)
+
+- [npm-uninstall](https://docs.npmjs.com/cli/v6/commands/npm-uninstall)
+
+- [npm uninstall –no-save does not work with devDependencies](https://npm.community/t/npm-uninstall-no-save-does-not-work-with-devdependencies/1039)
+
+- [https://docs.npmjs.com/cli/v7/commands/npm-prune](https://docs.npmjs.com/cli/v7/commands/npm-prune)
+
+- [npm-check](https://www.npmjs.com/package/npm-check)
 
 - [Diferencias entre librerías y frameworks | Viewnext](https://www.viewnext.com/diferencias-entre-librerias-y-frameworks/)
 

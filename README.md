@@ -30,7 +30,28 @@
 - [Resolving EACCES permissions errors when installing packages globally](https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally)
 
 - [Different types of dependencies in a Node.js application explained](https://javascript.plainenglish.io/what-the-dependency-types-of-dependencies-in-a-node-js-application-explained-904a5424fbd3)
+
 - [A Comprehensive Beginner’s Guide To NPM](https://www.tabnine.com/blog/a-comprehensive-beginners-guide-to-npm/)
+
+- [npm-uninstall](https://docs.npmjs.com/cli/v6/commands/npm-uninstall)
+
+- [npm uninstall –no-save does not work with devDependencies](https://npm.community/t/npm-uninstall-no-save-does-not-work-with-devdependencies/1039)
+
+- [https://docs.npmjs.com/cli/v7/commands/npm-prune](https://docs.npmjs.com/cli/v7/commands/npm-prune)
+
+- [npm-check](https://www.npmjs.com/package/npm-check)
+
+- [package-lock.json](https://docs.npmjs.com/cli/v7/configuring-npm/package-lock-json)
+
+- [Semantic Versioning](https://semver.org/)
+
+- [¿Qué es versionamiento semántico?](https://fperez217.medium.com/qu%C3%A9-es-versionamiento-sem%C3%A1ntico-bf495b9eb028)
+
+- [¿Cómo funcionan las versiones en NPM?](https://platzi.com/tutoriales/1763-npm/8399-como-funcionan-las-versiones-en-npm/)
+
+- [About semantic versioning](https://docs.npmjs.com/about-semantic-versioning)
+
+- [npm-shrinkwrap](https://docs.npmjs.com/cli/v7/commands/npm-shrinkwrap)
 
 - [Diferencias entre librerías y frameworks | Viewnext](https://www.viewnext.com/diferencias-entre-librerias-y-frameworks/)
 
@@ -53,3 +74,5 @@
 ![NPM Notas Curso](https://i.imgur.com/PcIovO2.jpg)
 
 ![Recortable de comandos NPM](https://i.imgur.com/2VnQZ0z.jpg)
+
+![Semantic Versioning](https://i.imgur.com/KZXk9g6.jpg)

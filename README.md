@@ -46,6 +46,20 @@
 
 -   [¿Qué es versionamiento semántico?](https://fperez217.medium.com/qu%C3%A9-es-versionamiento-sem%C3%A1ntico-bf495b9eb028)
 
+-   [Different types of dependencies in a Node.js application explained](https://javascript.plainenglish.io/what-the-dependency-types-of-dependencies-in-a-node-js-application-explained-904a5424fbd3)
+
+-   [A Comprehensive Beginner’s Guide To NPM](https://www.tabnine.com/blog/a-comprehensive-beginners-guide-to-npm/)
+
+-   [npm-uninstall](https://docs.npmjs.com/cli/v6/commands/npm-uninstall)
+
+-   [npm uninstall –no-save does not work with devDependencies](https://npm.community/t/npm-uninstall-no-save-does-not-work-with-devdependencies/1039)
+
+-   [https://docs.npmjs.com/cli/v7/commands/npm-prune](https://docs.npmjs.com/cli/v7/commands/npm-prune)
+
+-   [npm-check](https://www.npmjs.com/package/npm-check)
+
+-   [Diferencias entre librerías y frameworks | Viewnext](https://www.viewnext.com/diferencias-entre-librerias-y-frameworks/)
+
 -   [¿Cómo funcionan las versiones en NPM?](https://platzi.com/tutoriales/1763-npm/8399-como-funcionan-las-versiones-en-npm/)
 
 -   [About semantic versioning](https://docs.npmjs.com/about-semantic-versioning)
@@ -70,7 +84,7 @@
 
 -   [NPM | Notion por @Sstark97 (Aitor Santana)](https://keen-nannyberry-2b8.notion.site/NPM-7560cea59ece4a6c8dd939d24057fd6e)
 
-[Licnecia de Software | Wikipedia](https://es.wikipedia.org/wiki/Licencia_de_software)
+-   [Licnecia de Software | Wikipedia](https://es.wikipedia.org/wiki/Licencia_de_software)
 
 -   [Introducción a los diferentes tipos de licencias de código abierto y software libre | Universo Abierto](https://universoabierto.org/2015/12/20/introduccion-a-los-diferentes-tipos-de-licencias-de-codigo-abierto-y-software-libre/)
 

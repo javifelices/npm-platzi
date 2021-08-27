@@ -53,6 +53,10 @@
 
 - [npm-shrinkwrap](https://docs.npmjs.com/cli/v7/commands/npm-shrinkwrap)
 
+- [Scripts de NPM](https://lenguajejs.com/npm/administracion/scripts-de-npm/)
+
+- [scripts](https://docs.npmjs.com/cli/v7/using-npm/scripts)
+
 - [Diferencias entre librerías y frameworks | Viewnext](https://www.viewnext.com/diferencias-entre-librerias-y-frameworks/)
 
 - [NPM | Notion por @Sstark97 (Aitor Santana)](https://keen-nannyberry-2b8.notion.site/NPM-7560cea59ece4a6c8dd939d24057fd6e)
@@ -76,3 +80,19 @@
 ![Recortable de comandos NPM](https://i.imgur.com/2VnQZ0z.jpg)
 
 ![Semantic Versioning](https://i.imgur.com/KZXk9g6.jpg)
+
+> Puedes también especificar scripts con el prefijo “**pre**” que se ejecutarán automáticamente antes del comando que ejecutaste. Por ejemplo, si defines el comando **build** y **prebuild**, cuando corras `npm run build` el comando **prebuild** se ejecutará primero. Esto sirve para poder ejecutar tareas que hagan algún tipo de preparación necesaria para correr el comando principal.
+
+> Sin embargo, hay que hacer notar que si el comando **pre** falla (retorna un valor que no es 0) el comando principal no se ejecutará. Esto es algo bueno ya que si nuestro proceso de preparación no se realiza de forma exitosa, puede que tengamos problemas al querer ejecutar la tarea principal.
+
+> En algunas ocaciones, sin embargo, la tarea previa puede fallar sin que eso afecte la ejecución de la tarea principal. En esos casos puedes usar `|| exit 0` para retornar 0:
+
+```
+"presass-build": "(rm css/*.css; rm css/*.css.map) || exit 0"
+```
+
+> Ese es un ejemplo de un comando que hice hace un tiempo. **rm** puede fallar si el directorio css está vacio, y en ese caso no hay problema, la tarea principal puede funcionar sin ningún problema ya que **presass-build** tiene el propósito de vaciar ese directorio.
+
+>Algo que también faltó mencionar es que `npm run` agrega el directorio `./node_modules/bin/` al **PATH**, de modo que para ejecutar un comando no es necesario agregar la ruta completa.
+
+>Esto es porque en realidad el binario está ubicado en `node_modules/bin/`.

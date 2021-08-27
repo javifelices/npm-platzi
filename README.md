@@ -60,6 +60,12 @@
 
 -   [npkill - Otra forma de eliminar la carpeta node_modules](https://npkill.js.org/)
 
+-   [How to keep your Javascript projects safe](https://dev.to/thedanmiller/how-to-keep-your-javascript-projects-safe-3jgi)
+
+-   [snyk - herramienta que garantiza que estemos siempre actualizados con nuestras dependencias del proyecto](https://snyk.io/)
+
+-   [AuditJS](https://github.com/sonatype-nexus-community/auditjs)
+
 -   [Diferencias entre librerías y frameworks | Viewnext](https://www.viewnext.com/diferencias-entre-librerias-y-frameworks/)
 
 -   [NPM | Notion por @Sstark97 (Aitor Santana)](https://keen-nannyberry-2b8.notion.site/NPM-7560cea59ece4a6c8dd939d24057fd6e)
@@ -84,6 +90,8 @@
 
 ![Semantic Versioning](https://i.imgur.com/KZXk9g6.jpg)
 
+### Scripts
+
 > Puedes también especificar scripts con el prefijo “**pre**” que se ejecutarán automáticamente antes del comando que ejecutaste. Por ejemplo, si defines el comando **build** y **prebuild**, cuando corras `npm run build` el comando **prebuild** se ejecutará primero. Esto sirve para poder ejecutar tareas que hagan algún tipo de preparación necesaria para correr el comando principal.
 
 > Sin embargo, hay que hacer notar que si el comando **pre** falla (retorna un valor que no es 0) el comando principal no se ejecutará. Esto es algo bueno ya que si nuestro proceso de preparación no se realiza de forma exitosa, puede que tengamos problemas al querer ejecutar la tarea principal.
@@ -99,3 +107,32 @@
 > Algo que también faltó mencionar es que `npm run` agrega el directorio `./node_modules/bin/` al **PATH**, de modo que para ejecutar un comando no es necesario agregar la ruta completa.
 
 > Esto es porque en realidad el binario está ubicado en `node_modules/bin/`.
+
+
+### SEGURIDAD
+
+Para revisar las vulnerabilidades de un proyecto se puede usar:
+
+```
+npm audit
+```
+
+Si hay vulverabilidades se puede usar el comando:
+
+```
+npm audit fix
+```
+
+El comando anterior soluciona las vulnerabilidades actualizando a la última verisón de los paquetes de las dependencias que requieran.
+
+Lógicamente esta opción hay que hacerla con cuidado.
+
+>Normalmente una actualización para solucionar problemas de seguridad solamente se realiza un parche (patch), por ejemplo, una dependencia pasa de la versión 1.0.0 a la versión 1.0.1, o bien, se realiza un cambio menor (minor) donde una dependencia pasaría de la versión 1.0.0 a la versión 1.1.0, por ejemplo. En estos casos no debería de haber ningún problema, sin embargo, cuando existe un cambio mayor (major), una dependencia pasa de la versión 1.0.0 a la versión 2.0.0, porejemplo, deberíamos tener cuidado, por que es ahí cuando probablemente la dependencia que estemos utilizando empiece a funcionar de manera totalmente diferente, y ahí tendríamos que hacer una migración para poder esperar el funcionamiento adecuado.
+
+Por lo que se puede recomendar actualizar estos paquetes de manera individual, para tener el control de lo qu estamos haciendo.
+
+Con el siguiente comando, actualizamos el paquete, además de indicar la profundidad de las dependencias a las que quiero llegar en dicha actualización
+
+```
+npm update <PAQUETE> --depth 2
+```

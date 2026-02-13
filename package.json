@@ -31,6 +31,6 @@
         "date-fns": "^2.23.0"
     },
     "optionalDependencies": {
-        "eslint": "^7.32.0"
+        "eslint": "^10.0.0"
     }
 }
